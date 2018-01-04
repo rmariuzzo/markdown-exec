@@ -1,6 +1,6 @@
 {
   "name": "markdown-exec",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Execute commands in your Markdown and keep the output.",
   "keywords": [
     "markdown",
