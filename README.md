@@ -79,7 +79,7 @@ To release this project the following tasks should be done:
 
  1. Using [np](https://github.com/sindresorhus/np): `np`
 
----
+<br><br><br>
 
 <div align=center>
 
