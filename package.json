@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Execute commands in your Markdown and keep the output.",
   "keywords": [
-    ""
+    "markdown",
+    "parser",
+    "markdown-parser",
+    "exec",
+    "cli"
   ],
   "main": "index.js",
   "repository": "https://github.com/rmariuzzo/markdown-exec",
