@@ -12,13 +12,14 @@ function markdownExec(data, cwd) {
       throw new Error('No command defined!')
     }
     const output = execSync(cmd, { cwd }).toString()
+    const trimmedOutput = output.trim()
 
     // Execute optional regexp matcher.
     if (match) {
-      return new RegExp(match).exec(output)[0]
+      return new RegExp(match).exec(trimmedOutput)[0]
     }
 
-    return output
+    return trimmedOutput
   }).contents()
 }
 
